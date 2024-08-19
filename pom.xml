@@ -35,6 +35,8 @@
             <groupId>com.ankers</groupId>
             <artifactId>spring-ssm-01-po</artifactId>
             <version>0.0.1-SNAPSHOT</version>
+<!--         可选依赖是隐藏当前工程所依赖的资源，隐藏后对应资源将不具有依赖传递性   -->
+            <optional>true</optional>
         </dependency>
 
         <dependency>
